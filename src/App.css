@@ -1,0 +1,128 @@
+body, html {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none; */
+  width: 50%;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Texto-original {
+  color: #000000;
+}
+
+.Espaciado-alto {
+  padding-top: 80px;
+}
+
+button.btn-accion {
+  text-align: center;
+  /* padding: 0 20px 0 10px; */
+}
+
+div.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+div.formitem-default {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* div.ant-form-item-control {
+  border: 1px solid black;
+} */
+
+.enlace-menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #d0057f;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-container {
+  margin-bottom: 30px;
+}
+
+.header-container img {
+  cursor: pointer;
+}
+
+.footer-container {
+  margin-top: 30px;
+  background: #000000;
+  color: #ffffff;
+  padding: 10px 0 10px 0;
+}
+
+.formulario {
+  text-align: left;
+  padding: 0 25px 0 25px;
+}
+
+.espaciado-pequenio {
+  padding-top: 10px;
+}
+
+.espaciado-medio {
+  padding-top: 25px;
+}
+
+.espaciado-alto {
+  padding-top: 50px;
+}
+
+.separador-renglon {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.etiqueta-campo {
+  font-weight: normal;
+}
+
+.requerido:before {
+  content: '* ';
+  color: #f00;
+  font-weight: bold;
+}
+
+.contenedor-centrado {
+  text-align: center;
+}
